@@ -1,0 +1,70 @@
+
+:root {
+    /* color */
+    --White: hsl(0, 0%, 100%);
+
+    --Slat-300: hsl(212, 45%, 89%);
+    --Slat-500: hsl(216, 15%, 48%);
+    --Slat-900: hsl(218, 44%, 22%);
+
+    /* font */
+    --font-familt-default: 'Outfit';
+
+    /* font weight */
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--Slat-300);
+    
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+.card {
+    width: min(320px, 90%);
+    padding: 1.0rem;
+    background-color: var(--White);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 1.25rem;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.7rem;
+    margin-bottom: 0.5rem;
+}
+
+.card h2 {
+    color: var(--Slat-900);
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 0rem;
+    padding-inline: 0.9rem;
+}
+
+.card p {
+    color: var(--Slat-500);
+    text-align: center;
+    font-size: 0.9375rem;
+    line-height: 1.4;
+    padding-inline: 5px;
+}
