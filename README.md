@@ -3,7 +3,7 @@
 This is a solution to the **QR Code Component** challenge from Frontend Mentor.
 
 ## 🔗 Links
-- Live Site: https://your-github-username.github.io/QR-code-component-fm03/
+- Live Site: https://qr-code-component-fm03.netlify.app/
 - Repository: https://github.com/BiswajeetSahoo25/QR-code-component-fm03
 
 ## 🛠 Built With
